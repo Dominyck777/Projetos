@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+body {
+    background-color: #0D0D0D;
+    margin-bottom: 0px;
+    
+}
+
+header {
+    
+    margin-bottom: 0px;
+    background-color: #0D0D0D;
+    height: 100px;
+
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.374);
+}
+
+
+nav > a {  
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 5px;
+    padding: 2px;
+    color: black;
+   
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+a#a-borda {
+    border: 1px solid rgb(0, 0, 0); 
+    border-top: none;
+    border-bottom: none;
+    margin: 2px;
+    padding:1px;
+    
+}
+
+div {
+    height: 24px;
+    padding: 2px;
+    background-color: red;
+}
+
+div#vg {
+    width: 80%;
+    height: 94px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 3px;
+    border: 2px solid rgb(97, 13, 13);
+}
+
+div#gostos {
+    display: flex;
+    background-color: #0D0D0D;
+}
+
+div#div-restrita {
+    margin: auto;
+    margin-top: 200px;
+    height: 41px;
+    width: 550px;
+    border: 1px solid red;
+    background-color: #0D0D0D
+}
+
+main {
+    
+    border-top: none;
+    background-color: #0D0D0D;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.374);
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 1px;
+}
+
+main#gostos {
+    height: 505px;
+    border-top: none;
+    background-color: #0D0D0D;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.374);
+    margin: 0px;
+
+}
+
+main#objetivo {
+    
+    height: 280px;
+    border-top: none;
+    background-color: #0D0D0D;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.374);
+    margin: 0px;
+    padding-top: 0px;
+}
+
+section {
+    height: 495px;
+    margin: auto;
+}
+
+section.gosto {
+    text-align: center;
+    height: 444px;
+    width: 388px;
+    border: 1px solid red;
+}
+
+article {
+    margin: auto;
+    width: 40%;
+    height: 476px;
+    border: 1px solid red;
+    text-align: center;
+    background-color: #100f0f;
+}
+
+footer {
+    background-color: #0D0D0D;
+    text-align: center;
+}
+
+h1 {
+    color: #F21313;
+    font-size: xx-large;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    
+    color: #F21313;
+    text-shadow: 1px 1px 1px #A60303;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+h2#h2-gostos {
+    margin-bottom: 15px;
+    color: #F21313;
+    text-shadow: 1px 1px 1px #A60303;
+    text-align: center;
+    
+}
+
+
+
+h2#h2-restrito {
+    margin: 0px;
+}
+
+h3 {
+
+    color: #F21313;
+    text-shadow: 1px 1px 1px #A60303;
+    text-align: center;
+
+    margin-bottom: 10px
+}
+
+h4 {
+
+    color: #d21111;
+    text-shadow: 1px 1px 1px #A60303;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+p#gostos {
+    margin: 2px;
+}
+
+
+#p-vg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 550;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 5px 3px;
+ 
+    color: rgb(0, 0, 0);
+}
+
+#p-footer {
+    margin: auto;
+    font-weight: 100;
+    color: white;
+}
+
+img {
+    width: 310px;
+    height: 290px;
+    border: 1px solid #ff0000;
+    box-shadow: 1px 1px 5px #A60303;
+    padding: 0px;
+}
+
+img#img-gostos {
+    width: 310px;
+    height: 290px;
+    border: 1px solid #ff0000;
+
+}

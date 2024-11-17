@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <script src="script.js"></script>
+</head>
+<body  onload="carregar_produtos()">
+
+    <main style="width: 500px; margin: 100px 100px 100px 470px;">
+        <h1>Cadastro de Produtos</h1>
+
+        
+
+        <label for="">Digite o nome do produto:</label>
+        <input type="text" id="nome" style="width: 210px;">
+        <br>
+        <br>
+        <label for="">Digite a descrição do produto:</label>
+        <input type="text" id="desc" style="width: 186px;">
+        <br>
+        <br>
+        <label for="">Digite o preço do produto:</label>
+        <input type="text" id="preco" style="width: 210px;">
+        <br>
+        <br>
+        <label for="">Digite a quantidade do produto:</label>
+        <input type="text" id="qntd" style="width: 175px;">
+        <br>
+        <br>
+
+        <button onclick="cadastrar()" style="width: 390px;">Cadastrar</button>
+
+        <br>
+        <br>
+
+        <label for="">Busque pelo nome: </label>
+        <input type="text" id="produtoNome" style="width: 215px;">
+        <button onclick="buscarproduto()">&#128269</button>
+        <br>
+        <br>
+        <label for="">Somar produtos:</label>
+        <button onclick="somarProdutos()">➕</button>
+        <br>
+        <br>
+        <table border="1" style="margin-left: 35px;">
+            <thead>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </thead>
+            <tbody id="lista_produtos">
+
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

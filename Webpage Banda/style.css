@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(185, 177, 177);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    padding-top: 15px;
+    text-align: center;
+    background-color: white;
+    height: 750px;
+    margin: 30px 40px 0px 40px;
+}
+
+
+
+main {
+    margin-top: 0;
+    background-color: white;
+    text-align: justify;
+    margin: 0px 40px;
+}
+
+#block {
+    padding: 40px 0;
+    margin: 0px 40px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.334);
+    border-bottom: 1px dashed black;
+}
+
+.div-bg {
+    background-color: gray;
+}
+
+h2 {
+    margin: 0;
+}
+
+.mencao {
+    background-color: rgb(205, 205, 205);
+    margin: 30px;
+    padding: 30px;
+}
+
+blockquote {
+    font-size: 1.9em;
+    font-weight: bold;
+    
+}
+
+
+#img-banda {
+    max-width: 900px;
+}
+
+article {
+    padding: 40px 0;
+    margin: 0px 40px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.334);
+}
+li {
+    margin: 10px;
+}
+
+#panfleto {
+    position: relative;
+    left: 350px;
+}
+
+aside {
+    margin: 25px;
+}
+
+video {
+    position: relative;
+    left: 350px;
+}
+
+

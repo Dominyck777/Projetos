@@ -1,0 +1,1 @@
+source /opt/lampp/htdocs/Detect_Image/python/bin/activate

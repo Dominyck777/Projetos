@@ -15,7 +15,7 @@ Se você quiser rodar os projetos na sua máquina, basta seguir os passos abaixo
 
 Clone este repositório:
 
-git clone https://github.com/Dominyck/Projetos.git
+git clone https://github.com/Dominyck777/Projetos.git
 
 Navegue até a pasta do projeto:
 

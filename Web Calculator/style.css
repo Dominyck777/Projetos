@@ -1,0 +1,89 @@
+body {
+    background-color: #050505;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+p#pResult {
+    text-align: center;
+}
+
+span#numSpan {
+    color: red;
+    font-weight: bold;
+}
+
+div#CalculatorBox {
+    background-color: #0D0C0C;
+    width: 336px;
+    height: 421px;
+    padding: 5px;
+    border: 2px solid red;
+    
+}
+
+input#calcArea {
+  background-color: rgba(65, 55, 55, 0.87);
+  color: white;
+  border: none;
+  width: 245px;
+  height: 40px;
+  display: inline;
+  margin: 10px 0;
+  font-size: 1.1em;
+  cursor: text;
+  outline: none;
+}
+
+
+
+button.btnStyle {
+    background-color: red;
+    padding: none;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin: 2px 0;
+    font-size: 1.8em;
+    font-weight: bold;
+    cursor: grab;
+    transition: background-color 0.3s ease;
+}
+
+button.btnStyle:hover {
+    background-color: rgb(209, 23, 23);
+}
+
+.afundar {
+    transform: translateY(4px);
+    transition: transform 0.1s;
+}
+
+button#btnDel img {
+    width: 20px;
+    margin: auto;
+    
+}
+
+button#btnSend {
+    color: white;
+}
+
+p#autor {
+    text-align: center;
+    color: gray;
+}
